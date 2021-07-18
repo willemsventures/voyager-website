@@ -1,4 +1,6 @@
-# WV Website
+# Voyager Park Website
+
+Works only with node 11.
 
 ```
 git clone https://github.com/willemsventures/voyager-website
@@ -18,4 +20,5 @@ Website visible at "https://localhost:8081"
 Under development.
 
 # website
+
 # voyager-website
