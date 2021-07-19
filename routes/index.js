@@ -57,10 +57,10 @@ router.get("/faq", function (req, res, next) {
   });
 });
 
-router.get("/aboutus", function (req, res, next) {
-  res.render("aboutus", {
-    title: "About Us - Voyager Park",
-    routename: "aboutus",
+router.get("/theregion", function (req, res, next) {
+  res.render("theregion", {
+    title: "The Region - Voyager Park",
+    routename: "theregion",
     csrfToken: req.csrfToken()
   });
 });
