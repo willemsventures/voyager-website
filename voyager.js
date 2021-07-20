@@ -3,6 +3,8 @@ const https = require('https');
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
+const ini = require('ini');
+const fs = require('fs');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const request = require('request');
@@ -72,5 +74,16 @@ app.use(function (err, req, res, next) {
 	res.render('error');
 });
 
+// smoobu stuff
 
+const Smoobu = require('smoobu');
 
+const ini_settings = ini.parse(fs.readFileSync('./settings.ini', 'utf-8'));
+const smoobuAPI = ini_settings.smoobuAPI;
+
+const smoobu = new Smoobu(smoobuAPI);
+
+async function getuser() {
+	user = await smoobu.user();
+	console.log(`User ${user.id} is`, user.firstName, user.lastName);
+}

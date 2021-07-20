@@ -1,6 +1,7 @@
 node_modules/**/*
 web-build/
 web-report/
+settings.ini
 
 # macOS
 .DS_Store
