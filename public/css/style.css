@@ -1380,7 +1380,6 @@ blockquote.normal {
   display: none;
 }
 
-
 /*------------------------------------------------------------------
 5. Navigation / .navbar-nav
 -------------------------------------------------------------------*/
@@ -11912,7 +11911,8 @@ h4,
   }
 
   .trip-info > .row > .height {
-    min-height: 100%;
+    min-height: 80%;
+    max-height: 900px;
   }
 
   .trip-info .reviews-info {
