@@ -176,10 +176,10 @@ router.get("/your-responsibilities", function (req, res, next) {
     csrfToken: req.csrfToken()
   });
 });
-router.get("/cancellationpolicy", function (req, res, next) {
-  res.render("cancellationpolicy", {
+router.get("/cancellation-policy", function (req, res, next) {
+  res.render("cancellation-policy", {
     title: "Cancellation Policy - Voyager Park",
-    routename: "cancellationpolicy",
+    routename: "cancellation-policy",
     csrfToken: req.csrfToken()
   });
 });
