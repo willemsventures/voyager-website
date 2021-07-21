@@ -201,6 +201,23 @@ router.get("/booking-conditions", function (req, res, next) {
     csrfToken: req.csrfToken()
   });
 });
+
+router.get("/fishing", function (req, res, next) {
+  res.render("fishing", {
+    title: "Fishing Gear - Voyager Park",
+    routename: "fishing",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/kayak", function (req, res, next) {
+  res.render("kayak", {
+    title: "Kayak - Voyager Park",
+    routename: "kayak",
+    csrfToken: req.csrfToken()
+  });
+});
+
 router.get("/your-responsibilities", function (req, res, next) {
   res.render("your-responsibilities", {
     title: "Your Responsibilities - Voyager Park",
