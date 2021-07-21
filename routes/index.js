@@ -57,18 +57,53 @@ router.get("/faq", function (req, res, next) {
   });
 });
 
-router.get("/theregion", function (req, res, next) {
-  res.render("theregion", {
-    title: "The Region - Voyager Park",
-    routename: "theregion",
+router.get("/northcape-expedition", function (req, res, next) {
+  res.render("northcape-expedition", {
+    title: "NorthCape Expedition - Voyager Park",
+    routename: "northcape-expedition",
     csrfToken: req.csrfToken()
   });
 });
+
+router.get("/lapland-expedition", function (req, res, next) {
+  res.render("lapland-expedition", {
+    title: "Lapland Expedition - Voyager Park",
+    routename: "lapland-expedition",
+    csrfToken: req.csrfToken()
+  });
+});
+
+
+router.get("/aurora-expedition", function (req, res, next) {
+  res.render("aurora-expedition", {
+    title: "Aurora Expedition - Voyager Park",
+    routename: "aurora-expedition",
+    csrfToken: req.csrfToken()
+  });
+});
+
+
+router.get("/heimdall-expedition", function (req, res, next) {
+  res.render("heimdall-expedition", {
+    title: "Heimdall Expedition - Voyager Park",
+    routename: "heimdall-expedition",
+    csrfToken: req.csrfToken()
+  });
+});
+
 
 router.get("/contact", function (req, res, next) {
   res.render("contact", {
     title: "Contact - Voyager Park",
     routename: "contact",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/expeditions", function (req, res, next) {
+  res.render("expeditions", {
+    title: "Expeditions - Voyager Park",
+    routename: "expeditions",
     csrfToken: req.csrfToken()
   });
 });
@@ -102,6 +137,49 @@ router.get("/tipitent", function (req, res, next) {
   res.render("tipitent", {
     title: "Tipi Tent - Voyager Park",
     routename: "tipitent",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/checkout", function (req, res, next) {
+  res.render("checkout", {
+    title: "Checkout - Voyager Park",
+    routename: "checkout",
+    csrfToken: req.csrfToken()
+  });
+});
+router.get("/confirmation", function (req, res, next) {
+  res.render("confirmation", {
+    title: "Confirmation - Voyager Park",
+    routename: "confirmation",
+    csrfToken: req.csrfToken()
+  });
+});
+router.get("/privacypolicy", function (req, res, next) {
+  res.render("privacypolicy", {
+    title: "Privacy Policy - Voyager Park",
+    routename: "privacypolicy",
+    csrfToken: req.csrfToken()
+  });
+});
+router.get("/booking-conditions", function (req, res, next) {
+  res.render("booking-conditions", {
+    title: "Booking Conditions - Voyager Park",
+    routename: "booking-conditions",
+    csrfToken: req.csrfToken()
+  });
+});
+router.get("/your-responsibilities", function (req, res, next) {
+  res.render("your-responsibilities", {
+    title: "Your Responsibilities - Voyager Park",
+    routename: "your-responsibilities",
+    csrfToken: req.csrfToken()
+  });
+});
+router.get("/cancellationpolicy", function (req, res, next) {
+  res.render("cancellationpolicy", {
+    title: "Cancellation Policy - Voyager Park",
+    routename: "cancellationpolicy",
     csrfToken: req.csrfToken()
   });
 });

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+{% include './blocks/head.twig' %}
+
+<body class="default-page">
+    <div class="preloader" id="pageLoad">
+        <div class="holder">
+            <div class="coffee_cup"></div>
+        </div>
+    </div>
+    <!-- main wrapper -->
+    <div id="wrapper">
+        <div class="page-wrapper">
+            <!-- main header -->
+            {% include './blocks/navbar.twig' %}
+            <!-- main container -->
+            <main id="main">
+                <!-- main tour information -->
+                <section class="container-fluid trip-info">
+                    <div class="same-height two-columns row">
+                        <div class="height col-md-6">
+                            <!-- top image slideshow -->
+                            <div id="tour-slide">
+                                <div class="slide">
+                                    <div class="bg-stretch">
+                                        <img src="img/generic/img-17.jpg" alt="image descriprion" height="1104"
+                                            width="966">
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="bg-stretch">
+                                        <img src="img/generic/img-07.jpg" alt="image descriprion" height="1104"
+                                            width="966">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="height col-md-6 text-col">
+                            <div class="holder">
+                                <h1 class="small-size">Lapland Expedition</h1>
+                                <div class="price">
+                                    per person <strong>€ 1895</strong>
+                                </div>
+                                <div class="description">
+                                    <p>placeholder text</p>
+                                </div>
+                                <ul class="reviews-info">
+                                    <li>
+                                        <div class="info-left">
+                                            <strong class="title">Difficulty</strong>
+                                            <span class="value">Distance</span>
+                                        </div>
+                                        <div class="info-right">
+                                            <div class="star-rating">
+                                                <span><span class="icon-star"></span></span>
+                                                <span><span class="icon-star"></span></span>
+                                                <span class="disable"><span class="icon-star"></span></span>
+                                                <span class="disable"><span class="icon-star"></span></span>
+                                                <span class="disable"><span class="icon-star"></span></span>
+                                            </div>
+                                            <span class="value">± 1000KM</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-left">
+                                            <strong class="title">Activities</strong>
+                                            <span class="value">Drivers License</span>
+                                        </div>
+                                        <div class="info-right">
+                                            <ul class="ico-list">
+                                                <li>
+                                                    <span class="icon icon-hiking"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="icon icon-mount"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="icon icon-camping"></span>
+                                                </li>
+                                            </ul>
+                                            <span class="value">B</span>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <div class="btn-holder">
+                                    <a href="#" class="btn btn-lg btn-info">BOOK NOW</a>
+                                </div>
+                                <ul class="social-networks social-share">
+                                    <li>
+                                        <a href="#" class="facebook">
+                                            <span class="ico">
+                                                <span class="icon-facebook"></span>
+                                            </span>
+                                            <span class="text">Share</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter">
+                                            <span class="ico">
+                                                <span class="icon-twitter"></span>
+                                            </span>
+                                            <span class="text">Tweet</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="google">
+                                            <span class="ico">
+                                                <span class="icon-google-plus"></span>
+                                            </span>
+                                            <span class="text">+1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="pin">
+                                            <span class="ico">
+                                                <span class="icon-pin"></span>
+                                            </span>
+                                            <span class="text">Pin it</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="tab-container">
+                    <nav class="nav-wrap" id="sticky-tab">
+                        <div class="container">
+                            <!-- nav tabs -->
+                            <ul class="nav nav-tabs text-center" role="tablist">
+                                <li role="presentation" class="active"><a href="#tab01" aria-controls="tab01" role="tab"
+                                        data-toggle="tab">Inclusions and Exclusions</a></li>
+                                <li role="presentation"><a href="#tab02" aria-controls="tab02" role="tab"
+                                        data-toggle="tab">Itinerary</a></li>
+                                <li role="presentation"><a href="#tab03" aria-controls="tab03" role="tab"
+                                        data-toggle="tab">Lodging</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- tab panes -->
+                    <div class="container tab-content trip-detail">
+                        <!-- overview tab content -->
+                        <div role="tabpanel" class="tab-pane active" id="tab01">
+                            <strong class="header-box text-center">The tour package inclusions and exclusions at a
+                                glance</strong>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="text-box">
+                                        <div class="holder">
+                                            <strong class="title">Whats included in this tour</strong>
+                                            <span class="sub-title">Items that are covered in the cost of tour
+                                                price.</span>
+                                            <p>short text </p>
+                                            <ul style="color:darkgreen;" class="content-list tick-list">
+                                                <li>this &amp; this is included</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="text-box not-included">
+                                        <div class="holder">
+                                            <strong class="title">Whats not included in this tour</strong>
+                                            <span class="sub-title">Items that are <strong
+                                                    style="color:red;">not</strong>
+                                                covered
+                                                in the cost of tour
+                                                price.</span>
+                                            <p>not included placeholder</p>
+                                            <ul style="color:red;" class="content-list cross-list">
+                                                <li>This is not included</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- itinerary tab content -->
+                        <div role="tabpanel" class="tab-pane" id="tab02">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ol class="detail-accordion">
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 1</strong>
+                                                <span>Arrival Voyager Park</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>text</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 2</strong>
+                                                <span>Fredrika</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>placeholder</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 3</strong>
+                                                <span>Åsele</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>placeholder</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 4</strong>
+                                                <span>Vilhelmina</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>placeholder</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 5</strong>
+                                                <span>Strömsund</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>placeholder</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 6</strong>
+                                                <span>Voyager Park</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>placeholder</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 7</strong>
+                                                <span>Departure Voyager Park</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>placeholder</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6">
+                                    <article class="img-article article-light">
+                                        <div class="img-wrap">
+                                            <img src="img/generic/img-08.jpg" height="319" width="570"
+                                                alt="image description">
+                                        </div>
+                                        <div class="text-block">
+                                            <h3><a href="#">Taking a break</a></h3>
+                                            <p>Consider packing your bag with folloing daily essentials.</p>
+                                        </div>
+                                    </article>
+                                    <article class="img-article article-light">
+                                        <div class="img-wrap">
+                                            <img src="img/generic/img-09.jpg" height="319" width="570"
+                                                alt="image description">
+                                        </div>
+                                        <div class="text-block">
+                                            <h3><a href="#">Enjoy spectacular views</a></h3>
+                                            <p>placeholder</p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accomodation tab content -->
+                        <div role="tabpanel" class="tab-pane" id="tab03">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong class="header-box">Where will you be sleeping?</strong>
+                                    <div class="detail">
+                                        <p>placeholder</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 accomodation-block">
+                                    <strong class="header-box">placeholder tentbox</strong>
+                                    <div class="text-box">
+                                        <div class="holder">
+                                            <strong class="title">Included in the price</strong>
+                                            <span class="sub-title">placeholder tentbox</span>
+                                            <div class="img-holder">
+                                                <img src="img/generic/img-10.jpg" height="467" width="700"
+                                                    alt="image description">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        {% include './blocks/footer.twig' %}
+    </div>
+    {% include './blocks/scripts.twig' %}
+</body>
+
+</html>
