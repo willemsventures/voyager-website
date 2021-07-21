@@ -1,0 +1,182 @@
+@media screen and (min-width: 768px) {
+  .smallDevices {
+    display: none;
+  }
+  .bbigDevices {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bbigDevices {
+    display: none;
+  }
+  .smallDevices {
+    width: 100%;
+  }
+}
+iframe {
+  border: none;
+}
+.multiCalendarWidget .logo {
+  display: none !important;
+  color: #ffffff;
+}
+.multiCalendarWidget a {
+  display: none !important;
+  color: #ffffff;
+}
+.logo .bigDevices {
+  display: none !important;
+  color: #ffffff;
+}
+
+div.logo.bigdevices {
+  display: none !important;
+  color: #ffffff;
+}
+
+@charset "utf-8";
+.multiCalendarWidget {
+  max-width: 1000px !important;
+  width: 100% !important;
+  display: inline-table !important;
+  background: #f9f9f9 !important;
+  color: #616262 !important;
+  font: 300 100%/1.5em "Lato", sans-serif !important;
+  margin: 0 !important;
+  padding-top: 20px !important;
+  border-radius: 10px;
+}
+.multiCalendarWidget .fullCalendar {
+  width: 50% !important;
+  float: left !important;
+}
+.multiCalendarWidget .fullCalendar.smallDevices {
+  width: 100% !important;
+  float: left !important;
+}
+.multiCalendarWidget a {
+  text-decoration: none !important;
+  display: none;
+}
+.multiCalendarWidget h2 {
+  font-size: 20px !important;
+  line-height: 1.25em !important;
+  margin: 0.25em 0 !important;
+}
+.multiCalendarWidget h3 {
+  font-size: 1.5em !important;
+  line-height: 1em !important;
+  margin: 0.33em 0 !important;
+}
+.multiCalendarWidget .singleCalendarWidget,
+.multiCalendarWidget .singleCalendarWidget h2 {
+  text-align: center !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+.multiCalendarWidget .singleCalendarWidget .header,
+.multiCalendarWidget .singleCalendarWidget h2 .header {
+  position: relative !important;
+}
+.multiCalendarWidget .singleCalendarWidget .header div,
+.multiCalendarWidget .singleCalendarWidget h2 .header div {
+  position: relative !important;
+}
+.multiCalendarWidget .singleCalendarWidget h2,
+.multiCalendarWidget .singleCalendarWidget h2 h2 {
+  text-transform: uppercase !important;
+}
+.multiCalendarWidget .singleCalendarWidget table,
+.multiCalendarWidget .singleCalendarWidget h2 table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+}
+.multiCalendarWidget .singleCalendarWidget table thead,
+.multiCalendarWidget .singleCalendarWidget h2 table thead {
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+}
+.multiCalendarWidget .singleCalendarWidget table tbody,
+.multiCalendarWidget .singleCalendarWidget h2 table tbody {
+  color: #7c8a95 !important;
+}
+.multiCalendarWidget .singleCalendarWidget table tr,
+.multiCalendarWidget .singleCalendarWidget h2 table tr {
+  width: 100% !important;
+}
+.multiCalendarWidget .singleCalendarWidget table td,
+.multiCalendarWidget .singleCalendarWidget h2 table td {
+  padding: 0 !important;
+  box-sizing: border-box;
+  height: 66px !important;
+  line-height: 66px !important;
+  text-align: center !important;
+}
+.multiCalendarWidget .singleCalendarWidget table td.normal,
+.multiCalendarWidget .singleCalendarWidget h2 table td.normal {
+  background-color: #ffbfbf !important;
+}
+.multiCalendarWidget .singleCalendarWidget table td.arrival,
+.multiCalendarWidget .singleCalendarWidget h2 table td.arrival {
+  background: linear-gradient(
+    to right bottom,
+    #f9f9f9 50%,
+    #ffbfbf 50%
+  ) !important;
+}
+.multiCalendarWidget .singleCalendarWidget table td.departure,
+.multiCalendarWidget .singleCalendarWidget h2 table td.departure {
+  background: linear-gradient(
+    to right bottom,
+    #ffbfbf 50%,
+    #f9f9f9 50%
+  ) !important;
+}
+.multiCalendarWidget .singleCalendarWidget table td.current-day,
+.multiCalendarWidget .singleCalendarWidget h2 table td.current-day {
+  border: 2px solid #2de4e5 !important;
+}
+.multiCalendarWidget .btn-prev,
+.multiCalendarWidget .btn-next {
+  border-radius: 50% !important;
+  color: #cbd1d2 !important;
+  height: 32px !important;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  margin: -12px !important;
+  position: absolute !important;
+  top: 32% !important;
+  width: 32px !important;
+}
+.multiCalendarWidget .btn-prev.smallDevices,
+.multiCalendarWidget .btn-next.smallDevices {
+  top: -20px !important;
+}
+.multiCalendarWidget .btn-prev {
+  left: 26px !important;
+}
+.multiCalendarWidget .btn-prev.smallDevices {
+  left: 16px !important;
+}
+.multiCalendarWidget .btn-next {
+  right: 26px !important;
+}
+.multiCalendarWidget .btn-next.first {
+  display: none !important;
+}
+.multiCalendarWidget .btn-next.smallDevices {
+  right: 16px !important;
+}
+.multiCalendarWidget .btn-next.smallDevices.first {
+  display: inherit !important;
+}
+.multiCalendarWidget .btn-next.smallDevices.last {
+  display: none !important;
+}
+.multiCalendarWidget .logo {
+  float: left !important;
+  margin: 15px 20px 15px 150px;
+  display: none !important;
+}

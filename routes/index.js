@@ -124,10 +124,26 @@ router.get("/floatingigloo", function (req, res, next) {
   });
 });
 
-router.get("/rooftoptent", function (req, res, next) {
-  res.render("rooftoptent", {
-    title: "Rooftop Tent - Voyager Park",
-    routename: "rooftoptent",
+router.get("/landrovertentbox", function (req, res, next) {
+  res.render("landrovertentbox", {
+    title: "Landrover with Tentbox - Voyager Park",
+    routename: "landrovertentbox",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/jimnytentbox", function (req, res, next) {
+  res.render("jimnytentbox", {
+    title: "Jimny with Tentbox - Voyager Park",
+    routename: "jimnytentbox",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/wagontentbox", function (req, res, next) {
+  res.render("wagontentbox", {
+    title: "Wagon with Tentbox - Voyager Park",
+    routename: "wagontentbox",
     csrfToken: req.csrfToken()
   });
 });
