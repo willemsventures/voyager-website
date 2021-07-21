@@ -142,8 +142,24 @@ router.get("/jimnytentbox", function (req, res, next) {
 
 router.get("/wagontentbox", function (req, res, next) {
   res.render("wagontentbox", {
-    title: "Wagon with Tentbox - Voyager Park",
+    title: "Explorer Wagon with Tentbox - Voyager Park",
     routename: "wagontentbox",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/feroza", function (req, res, next) {
+  res.render("feroza", {
+    title: "Daihatsu Feroza - Voyager Park",
+    routename: "feroza",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/samurai", function (req, res, next) {
+  res.render("samurai", {
+    title: "Suzuki Samurai - Voyager Park",
+    routename: "samurai",
     csrfToken: req.csrfToken()
   });
 });
