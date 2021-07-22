@@ -12467,3 +12467,8 @@ h4,
 .activity-row {
   margin-bottom: 25px;
 }
+
+.modal-activity {
+  border-radius: 25px;
+  padding:25px;
+}
