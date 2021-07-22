@@ -17,26 +17,10 @@ router.get("/accommodation", function (req, res, next) {
   });
 });
 
-router.get("/rentals-and-activities-summer", function (req, res, next) {
-  res.render("rentals-and-activities-summer", {
-    title: "Rentals and Activities - Summer - Voyager Park",
-    routename: "rentals-and-activities-summer",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/rentals-and-activities-winter", function (req, res, next) {
-  res.render("rentals-and-activities-winter", {
-    title: "Rentals and Activities - Winter - Voyager Park",
-    routename: "rentals-and-activities-winter",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/partner-activities", function (req, res, next) {
-  res.render("partner-activities", {
-    title: "Partner Activities - Voyager Park",
-    routename: "partner-activities",
+router.get("/rentals-and-activities", function (req, res, next) {
+  res.render("rentals-and-activities", {
+    title: "Rentals and Activities - Voyager Park",
+    routename: "rentals-and-activities",
     csrfToken: req.csrfToken()
   });
 });
@@ -148,23 +132,6 @@ router.get("/wagontentbox", function (req, res, next) {
   });
 });
 
-router.get("/feroza", function (req, res, next) {
-  res.render("feroza", {
-    title: "Daihatsu Feroza - Voyager Park",
-    routename: "feroza",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/samurai", function (req, res, next) {
-  res.render("samurai", {
-    title: "Suzuki Samurai - Voyager Park",
-    routename: "samurai",
-    csrfToken: req.csrfToken()
-  });
-});
-
-
 router.get("/tipitent", function (req, res, next) {
   res.render("tipitent", {
     title: "Tipi Tent - Voyager Park",
@@ -198,22 +165,6 @@ router.get("/booking-conditions", function (req, res, next) {
   res.render("booking-conditions", {
     title: "Booking Conditions - Voyager Park",
     routename: "booking-conditions",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/fishing", function (req, res, next) {
-  res.render("fishing", {
-    title: "Fishing Gear - Voyager Park",
-    routename: "fishing",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/kayak", function (req, res, next) {
-  res.render("kayak", {
-    title: "Kayak - Voyager Park",
-    routename: "kayak",
     csrfToken: req.csrfToken()
   });
 });

@@ -13,6 +13,7 @@
                         <div class="container">
                             <h1>Make your stay unique.</h1>
                             <strong class="subtitle">sub text</strong>
+                            {% include './blocks/checkavailability.twig' %}
                         </div>
                     </div>
                 </div>
@@ -30,9 +31,9 @@
                                         <h3 class="no-space">Deluxe Igloo</h3>
                                         <strong class="info-title">2 pers. Breakfast Included</strong>
                                         <div class="img-wrap">
-                                            <img src="img/accommodation/deluxeigloo/interior3.jpg"
+                                            <img src="img/accommodation/deluxeigloo/view3.png"
                                                 style="height:250px;width:250px;" height="250" width="250"
-                                                alt="voyager-park-se">
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -52,7 +53,7 @@
                                         <div class="img-wrap">
                                             <img src="img/accommodation/deluxeigloo/1.jpg"
                                                 style="height:250px;width:250px;" height="250" width="250"
-                                                alt="voyager-park-se">
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -69,8 +70,9 @@
                                         <h3 class="no-space">Floating Igloo</h3>
                                         <strong class="info-title">2 pers. Breakfast Included</strong>
                                         <div class="img-wrap">
-                                            <img src="img/listing/img-31.jpg" style="height:250px;width:250px;"
-                                                height="250" width="250" alt="voyager-park-se">
+                                            <img src="img/accommodation/floatingigloo/exterior2.png"
+                                                style="height:250px;width:250px;" height="250" width="250"
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -92,7 +94,7 @@
                                         <div class="img-wrap">
                                             <img src="img/accommodation/tipi/exterior1.jpg"
                                                 style="height:250px;width:250px;" height="250" width="250"
-                                                alt="voyager-park-se">
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -104,13 +106,15 @@
                                     </div>
                                 </a>
                             </article>
-                            <article class="col-sm-6 col-md-4 article"><a href="/landrovertentbox">
+
+                            <article class="col-sm-6 col-md-4 article"><a href="/jimnytentbox">
                                     <div class="thumbnail">
-                                        <h3 class="no-space">Landrover + Tentbox</h3>
+                                        <h3 class="no-space">Jimny + Tentbox</h3>
                                         <strong class="info-title">2 pers. 250KM Included</strong>
                                         <div class="img-wrap">
-                                            <img src="img/listing/img-31.jpg" style="height:250px;width:250px;"
-                                                height="250" width="250" alt="voyager-park-se">
+                                            <img src="img/accommodation/jimny/exterior1.png"
+                                                style="height:250px;width:250px;" height="250" width="250"
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -121,13 +125,14 @@
                                     </div>
                                 </a>
                             </article>
-                            <article class="col-sm-6 col-md-4 article"><a href="/jimnytentbox">
+                            <article class="col-sm-6 col-md-4 article"><a href="/landrovertentbox">
                                     <div class="thumbnail">
-                                        <h3 class="no-space">Jimny + Tentbox</h3>
+                                        <h3 class="no-space">Landrover + Tentbox</h3>
                                         <strong class="info-title">2 pers. 250KM Included</strong>
                                         <div class="img-wrap">
-                                            <img src="img/listing/img-31.jpg" style="height:250px;width:250px;"
-                                                height="250" width="250" alt="voyager-park-se">
+                                            <img src="img/accommodation/comingsoon.png"
+                                                style="height:250px;width:250px;" height="250" width="250"
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -143,8 +148,9 @@
                                         <h3 class="no-space">Explorer Wagon with Tentbox</h3>
                                         <strong class="info-title">2 pers</strong>
                                         <div class="img-wrap">
-                                            <img src="img/listing/img-31.jpg" style="height:250px;width:250px;"
-                                                height="250" width="250" alt="voyager-park-se">
+                                            <img src="img/accommodation/comingsoon.png"
+                                                style="height:250px;width:250px;" height="250" width="250"
+                                                alt="image description">
                                         </div>
                                         <footer>
                                             <div class="sub-info" style="width:100%;">
@@ -156,6 +162,8 @@
                                     </div>
                                 </a>
                             </article>
+
+                            {% include './blocks/modals.twig' %}
                         </div>
                     </div>
                 </aside>

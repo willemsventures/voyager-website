@@ -119,3 +119,11 @@
 #banner-intro {
   background-image: url("../img/intro/img-01.jpg");
 }
+
+.banner.banner-inner.banner-midpage {
+  height: 100vh;
+  min-height: 320px;
+  max-height: 350px;
+  padding-top: 0;
+  color: #fff;
+}

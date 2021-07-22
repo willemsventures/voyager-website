@@ -12451,3 +12451,15 @@ h4,
     opacity: 1;
   }
 }
+
+.activity-icon {
+  height: 18px;
+  width: 18px;
+  justify-content: right;
+  text-align: right;
+}
+
+.rental-pic {
+  height:250px!important;
+  width:250px!important;
+}

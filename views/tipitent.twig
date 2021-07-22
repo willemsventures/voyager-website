@@ -45,41 +45,10 @@
                                         <p>per night</p>
                                     </div>
                                 </div>
-                                <div class="btn-holder">
-                                    <a href="#booking" class="btn btn-lg btn-info" style="margin-top:25px;"
-                                        data-toggle="modal" data-target="#booknow">BOOK NOW</a>
-                                </div>
-                                <div class="inner-main common-spacing container">
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="booknow" tabindex="-1" role="dialog"
-                                        aria-labelledby="myModalLabel">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div id="apartmentIframe895987">
-                                                    <script type="text/javascript"
-                                                        src="https://login.smoobu.com/js/Settings/BookingToolIframe.js"></script>
-                                                    <script>BookingToolIframe.initialize({ "url": "https://login.smoobu.com/en/booking-tool/iframe/272206/895987", "baseUrl": "https://login.smoobu.com", "target": "#apartmentIframe895987" })</script>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                {% include './blocks/booknow.twig' %}
+                                {% include './blocks/modals.twig' %}
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section class="container">
-                    <div class="row">
-                        <h2 class="text-center">Availability</h2>
-                    </div>
-                    <div id="smoobuApartment896011en" class="calendarWidget">
-                        <div class="calendarContent"
-                            data-load-calendar-url="https://login.smoobu.com/en/cockpit/widget/single-calendar/896011"
-                            data-verification="8f388ee07e1c8753fc7c11221b5ba1844b4da64d8706857bac31473418acde2b"
-                            data-baseUrl="https://login.smoobu.com" data-disable-css="false"></div>
-                        <script type="text/javascript"
-                            src="https://login.smoobu.com/js/Apartment/CalendarWidget.js"></script>
                     </div>
                 </section>
             </main>
