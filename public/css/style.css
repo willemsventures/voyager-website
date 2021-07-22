@@ -3840,6 +3840,8 @@ a.thumbnail img {
 .recent-block.recent-list .thumbnail {
   background: #fafafa;
   box-shadow: none;
+  border: 1px solid #00000021;
+  border-radius: 10px;
 }
 
 .recent-block .article {
@@ -12470,5 +12472,11 @@ h4,
 
 .modal-activity {
   border-radius: 25px;
-  padding:25px;
+  padding: 25px;
+}
+
+.row-expeditions {
+  border: 1px solid #00000047;
+  border-radius: 10px;
+  margin: 5px;
 }

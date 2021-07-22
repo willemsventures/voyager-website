@@ -25,6 +25,14 @@ router.get("/rentals-and-activities", function (req, res, next) {
   });
 });
 
+router.get("/termsandconditions", function (req, res, next) {
+  res.render("termsandconditions", {
+    title: "Terms and Conditions - Voyager Park",
+    routename: "termsandconditions",
+    csrfToken: req.csrfToken()
+  });
+});
+
 router.get("/deluxeigloo", function (req, res, next) {
   res.render("deluxeigloo", {
     title: "Deluxe Glass - Voyager Park",
