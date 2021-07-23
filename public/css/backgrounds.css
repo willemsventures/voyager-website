@@ -1,15 +1,17 @@
 /* Homepage */
 
-#about-theregion {
-  background-image: url("https://willems.ventures/assets/images/slide3.jpg");
-}
-
 #testimonial-home-page {
   background-image: url("../img/generic/img-05.jpg");
 }
 
 #banner-homeparallax-default {
   background-image: url("../img/banner/img-07.jpg");
+}
+
+/* banner-accommodation 1920x675 */
+
+#banner-accommodation {
+  background-image: url("../img/banner/accommodation.jpg");
 }
 
 /* banner-activities 1920x675 */
