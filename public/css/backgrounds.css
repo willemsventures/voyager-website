@@ -12,6 +12,25 @@
   background-image: url("../img/banner/testimonial.jpg");
 }
 
+/* faq page */
+#banner-faq {
+  background-image: url("../img/banner/faq.jpg");
+}
+/* privacypolicy page */
+#banner-privacypolicy {
+  background-image: url("../img/banner/privacypolicy.jpg");
+}
+
+/* termsandconditions page */
+#banner-termsandconditions {
+  background-image: url("../img/banner/termsandconditions.jpg");
+}
+
+/* responsibilities page */
+#responsibilities-banner {
+  background-image: url("../img/banner/responsibilities.jpg");
+}
+
 /* banner-contact */
 
 #banner-contact {
@@ -27,7 +46,7 @@
 /* banner-activities 1920x675 */
 
 #banner-activities-header {
-  background-image: url("../img/farmbacksjon/headerfarmbacksjon.png");
+  background-image: url("../img/banner/rentalsandactivities.jpg");
 }
 
 #banner-partner-activities {
