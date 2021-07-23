@@ -12,6 +12,10 @@
   background-image: url("../img/banner/testimonial.jpg");
 }
 
+#bg-mobile {
+  background-image: url("../img/home1.jpg");
+}
+
 /* faq page */
 #banner-faq {
   background-image: url("../img/banner/faq.jpg");

@@ -12480,3 +12480,19 @@ h4,
   border-radius: 10px;
   margin: 5px;
 }
+
+@media (max-width: 1750px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-on-desktop {
+    display: none;
+  }
+}
+
+.bg-mobile {
+  background-image: url("../img/home1.jpg");
+}
