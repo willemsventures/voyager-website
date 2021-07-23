@@ -22,6 +22,11 @@
   background-image: url("../img/farmbacksjon/headerfarmbacksjon.png");
 }
 
+/* banner restaurant */
+#banner-restaurant {
+  background-image: url("../img/banner/restaurant.jpeg");
+}
+
 /* expeditions 960x627 */
 #banner-expedition-heimdall {
   background-image: url("../img/expeditions/heimdall.png");
