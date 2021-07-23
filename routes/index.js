@@ -33,6 +33,15 @@ router.get("/termsandconditions", function (req, res, next) {
   });
 });
 
+router.get("/restaurant", function (req, res, next) {
+  res.render("restaurant", {
+    title: "Restaurant - Voyager Park",
+    routename: "restaurant",
+    csrfToken: req.csrfToken()
+  });
+});
+
+
 router.get("/deluxeigloo", function (req, res, next) {
   res.render("deluxeigloo", {
     title: "Deluxe Glass - Voyager Park",
