@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 {% include './blocks/head.twig' %}
 
 <body>
@@ -12,44 +11,38 @@
                 <!-- main tour information -->
                 <section class="container-fluid trip-info">
                     <div class="same-height two-columns row">
-                        {% include './images/deluxeigloo.twig' %}
+                        {% include './images/jimny.twig' %}
                         <div class="height col-md-6 text-col" style="margin-top:50px;">
 
                             <div class="holder">
-                                <h1 class="small-size">Jimny with Tentbox</h1>
+                                <h1 class="small-size">Suzuki Jimny with Tentbox</h1>
+                                <p><strong>Max 2 persons</strong></p>
                                 <div class="description">
-                                    <p>placeholder description</p>
+                                    <p>Spend your night in the woods in a tent on top of a Suzuki Jimny. Use our
+                                        physical map to guide yourself around through
+                                        amazing places this region has to offer.<br>
+                                    </p>
+                                    <strong class="title">Included</strong>
+                                    <p>250KM<br>€0.20 per extra KM<br>Physical map of the region<br>Sleeping bags for
+                                        rental</p>
+                                    <strong class="title">Excluded</strong>
+                                    <p>Guide</p>
+                                    <strong class="title">Terms</strong>
+                                    <p>Rent with a full fuel tank. Return with a full fuel tank.</p>
                                 </div>
-                                <ul class="reviews-info">
-                                    <li style="width:100%!important;">
-                                        <div class="info-left">
-                                            <strong class="title">Included</strong>
-                                            <span class="value">Towels</span>
-                                            <span class="value">Sleeping Bags</span>
-                                        </div>
-                                        <div class="info-right">
-                                            <strong class="title">Not Included</strong>
-                                            <span class="value"> max 2 person</span>
-
-                                        </div>
-                                    </li>
-                                </ul>
                                 <div class="price">
                                     <div class="col-md-6">
-                                        <h4><strong>Summer</strong></h4>
-                                        <p>€ 250</p>
-                                        <p>per night</p>
+                                        <h4><strong>Per Day</strong></h4>
+                                        <p>€ 200</p>
+
                                     </div>
                                     <div class="col-md-6">
-                                        <h4><strong>Winter</strong></h4>
-                                        <p>€ 250</p>
-                                        <p>per night</p>
+                                        <h4><strong>Per Week</strong></h4>
+                                        <p>€ 1270</p>
+
                                     </div>
                                 </div>
-                                <div class="btn-holder">
-                                    <a href="#booking" class="btn btn-lg btn-info" style="margin-top:25px;"
-                                        data-toggle="modal" data-target="#booknow">BOOK NOW</a>
-                                </div>
+                                {% include './blocks/booknow.twig' %}
                                 {% include './blocks/modals.twig' %}
                             </div>
                         </div>
