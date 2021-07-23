@@ -125,14 +125,6 @@ router.get("/floatingigloo", function (req, res, next) {
   });
 });
 
-router.get("/landrovertentbox", function (req, res, next) {
-  res.render("landrovertentbox", {
-    title: "Landrover with Tentbox - Voyager Park",
-    routename: "landrovertentbox",
-    csrfToken: req.csrfToken()
-  });
-});
-
 router.get("/jimnytentbox", function (req, res, next) {
   res.render("jimnytentbox", {
     title: "Jimny with Tentbox - Voyager Park",
