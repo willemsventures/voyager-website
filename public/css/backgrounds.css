@@ -8,6 +8,16 @@
   background-image: url("../img/banner/img-07.jpg");
 }
 
+#banner-testimonial {
+  background-image: url("../img/banner/testimonial.jpg");
+}
+
+/* banner-contact */
+
+#banner-contact {
+  background-image: url("../img/banner/contact.jpg") !important;
+}
+
 /* banner-accommodation 1920x675 */
 
 #banner-accommodation {
