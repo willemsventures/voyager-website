@@ -192,3 +192,11 @@
   padding-top: 0;
   color: #fff;
 }
+
+.banner.banner-inner.banner-expeditionpage {
+  height: 100vh;
+  min-height: 200px;
+  max-height: 200px;
+  padding-top: 0;
+  color: #fff;
+}
