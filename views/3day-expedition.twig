@@ -1,0 +1,303 @@
+<!DOCTYPE html> {% include './blocks/head.twig' %}
+
+<body class="default-page">
+    <div class="preloader" id="pageLoad">
+        <div class="holder">
+            <div class="coffee_cup"></div>
+        </div>
+    </div>
+    <!-- main wrapper -->
+    <div id="wrapper">
+        <div class="page-wrapper">
+            <!-- main header -->
+            {% include './blocks/navbar.twig' %}
+            <!-- main container -->
+            <main id="main">
+                <!-- main tour information -->
+                <section class="container-fluid trip-info">
+                    <div class="same-height two-columns row">
+                        <div class="height col-md-6">
+                            <!-- top image slideshow -->
+                            <div id="tour-slide">
+                                <div class="slide">
+                                    <div class="bg-stretch">
+                                        <img src="img/snowmobile/snowmobile.jpg" alt="image descriprion" height="1104" width="966">
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="bg-stretch">
+                                        <img src="img/generic/img-07.jpg" alt="image descriprion" height="1104" width="966">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="height col-md-6 text-col">
+                            <div class="holder">
+                                <h1 class="small-size">3-Day Expedition</h1>
+                                <div class="price">
+                                    per person <strong>€ 1895</strong>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        <b>Starting with a relaxing evening at Voyager Park, we will be preparing for the most intense, scenic and adventurous
+                                        routes of Backsjön.
+                                        This 3-day Expedition is the most challenging winter expedition of Voyager Park.</b>
+                                    </p>
+                                </div>
+                                <ul class="reviews-info">
+                                    <li>
+                                        <div class="info-left">
+                                            <strong class="title">Difficulty</strong>
+                                            <span class="value">Distance</span>
+                                        </div>
+                                        <div class="info-right">
+                                            <div class="star-rating">
+                                                <span><span class="icon-star"></span></span>
+                                                <span><span class="icon-star"></span></span>
+                                                <span><span class="icon-star"></span></span>
+                                                <span class="disable"><span class="icon-star"></span></span>
+                                                <span class="disable"><span class="icon-star"></span></span>
+                                            </div>
+                                            <span class="value">±250KM</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-left">
+                                            <strong class="title">Activities</strong>
+                                            <span class="value">Drivers License</span>
+                                        </div>
+                                        <div class="info-right">
+                                            <ul class="ico-list">
+                                                <li>
+                                                    <span class="icon icon-hiking"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="icon icon-mount"></span>
+                                                </li>
+                                                <li>
+                                                    <span class="icon icon-camping"></span>
+                                                </li>
+                                            </ul>
+                                            <span class="value">AM or B</span>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <div class="btn-holder">
+                                    <a href="#" class="btn btn-lg btn-info">BOOK NOW</a>
+                                </div>
+                                <ul class="social-networks social-share">
+                                    <li>
+                                        <a href="#" class="facebook">
+                                            <span class="ico">
+                                                <span class="icon-facebook"></span>
+                                            </span>
+                                            <span class="text">Share</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter">
+                                            <span class="ico">
+                                                <span class="icon-twitter"></span>
+                                            </span>
+                                            <span class="text">Tweet</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="google">
+                                            <span class="ico">
+                                                <span class="icon-google-plus"></span>
+                                            </span>
+                                            <span class="text">+1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="pin">
+                                            <span class="ico">
+                                                <span class="icon-pin"></span>
+                                            </span>
+                                            <span class="text">Pin it</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="tab-container">
+                    <nav class="nav-wrap" id="sticky-tab">
+                        <div class="container">
+                            <!-- nav tabs -->
+                            <ul class="nav nav-tabs text-center" role="tablist">
+                                <li role="presentation" class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Inclusions and Exclusions</a></li>
+                                <li role="presentation"><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Itinerary</a></li>
+                                <li role="presentation"><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Lodging</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- tab panes -->
+                    <div class="container tab-content trip-detail">
+                        <!-- overview tab content -->
+                        <div role="tabpanel" class="tab-pane active" id="tab01">
+                            <strong class="header-box text-center">The tour package inclusions and exclusions at a
+                                glance</strong>
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="text-box">
+                                        <div class="holder">
+                                            <strong class="title">Whats included in this tour</strong>
+                                            <span class="sub-title">Items that are covered in the cost of tour
+                                                price.</span>
+
+                                            <ul style="color:darkgreen;" class="content-list tick-list">
+                                                <li>Food and drinks (non-alcoholic)</li>
+                                                <li>Winter overall, boots, helmet, gloves</li>
+                                                <li>Accommodation in a tent with a thermal sleeping bag</li>
+                                                <li>Fuel for snow scooters</li>
+                                                <li>Shuttle from/to Sollefteå/Kramfors train station</li>
+                                                <li>Shuttle from/to Höga Kusten airport</li>
+                                                <li>Guided tour</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="text-box not-included">
+                                        <div class="holder">
+                                            <strong class="title">Whats not included in this tour</strong>
+                                            <span class="sub-title">Items that are <strong
+                                                    style="color:red;">not</strong>
+                                                covered
+                                                in the cost of tour
+                                                price.</span>
+                                            <ul style="color:red;" class="content-list cross-list">
+                                                <li>Personal insurance</li>
+                                                <li>Alcoholic drinks</li>
+                                                <li>Visa, airplane tickets or train tickets</li>
+                                                <li>(Thermal) clothing during the day or night</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- itinerary tab content -->
+                        <div role="tabpanel" class="tab-pane" id="tab02">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ol class="detail-accordion">
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 0 (Arrival)</strong>
+                                                <span>Arrival Voyager Park</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>On the first day of your adventure, you will arrive at the campsite and set up your 2 person tent. Once your tent is set up, you will need to light a stove to provide heat for the night. Depending on
+                                                        the time of your arrival, you may have the opportunity to use the shower and sauna, as well as the grill hut for grilling.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 1</strong>
+                                                <span>Guided tour, grilling, instructions</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>The following morning, you will wake up to a hearty breakfast in a glass igloo at 8:00 am. After fueling up, you will receive instructions and guidelines for the snowmobile tour, including how to operate
+                                                        the snowmobiles and what to do in emergency situations. We will then gear up and set off on your journey, riding on Polaris snowmobiles and following a guide on a 30 kilometer tour around Voyager
+                                                        Park. Along the way, we will stop at a lake to set up for ice fishing and enjoy a hot lunch of hot dogs and coffee around a small fire. After spending a few hours at this stop, we will continue our
+                                                        journey back to Voyager Park, stopping at a nearby gas station to refill the snowmobiles for the next day's adventure. When we return to base, you can relax in the sauna or hot tub before enjoying
+                                                        a grilled dinner of hamburgers, steaks, and fish with potatoes on the side.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 2</strong>
+                                                <span>Camping, Nävernäsan</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>On the second day, we will start our journey with a good breakfast at 8:00 am and pack up our tents and equipment for a 40 kilometer drive to our first stop in Näsåker. Your guide will lead you on a
+                                                        scenic journey through the wilderness, with opportunities to take breaks and appreciate the views along the way. After lunch, we will start a 50 kilometer trip to the Omsjö lake and drive to Nävernäsan,
+                                                        the highest point in the region where we will set up camp. Once we are set up, you will have the opportunity to go on a snowshoe hike or start ice fishing and explore the area. You may also have
+                                                        the chance to spot some wildlife. At the camp, we will make a fire and prepare dinner for the evening. After dinner, you can relax in the portable sauna and get some rest for the next day's adventure.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 3</strong>
+                                                <span>Long drive with scenic routes</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>On the third day, we will start with a breakfast and prepare for a 80 kilometer drive. Along the way, you will stop for lunch at a winter cafe and drive through scenic routes, visiting the small village
+                                                        of Resele until we arrive back at Voyager Park. At Voyager Park, you will have the option to grill or create your own pizza for dinner. After dinner, the sauna and hot tub will be available for you
+                                                        to use.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <strong class="title">Day 4 (departure)</strong>
+                                                <span>Departure</span>
+                                            </a>
+                                            <div class="slide">
+                                                <div class="slide-holder">
+                                                    <p>On the last day, you can continue to use all the facilities if you have booked them in advance until it is time for your trip back home to Sollefteå.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6">
+                                    <article class="img-article article-light">
+                                        <div class="img-wrap">
+                                            <img src="img/snowmobile/snowmobile.jpg" height="319" width="570" alt="image description">
+                                        </div>
+                                        <div class="text-block">
+                                            <h3><a href="#">Enjoy spectacular views</a></h3>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accomodation tab content -->
+                        <div role="tabpanel" class="tab-pane" id="tab03">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong class="header-box">Where will you be sleeping?</strong>
+                                    <div class="detail">
+                                        <p>You will be sleeping in a insulated tent on the lake where temperatures can reach below 30 celsius. In the tent you will have your own thermal sleeping bag with a furnace that you will have to maintain on your own
+                                            to provide heat.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 accomodation-block">
+                                    <div class="text-box">
+                                        <div class="holder">
+                                            <div class="img-holder">
+                                                <img src="img/snowmobile/tent.png" height="467" width="700" alt="image description">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        {% include './blocks/footer.twig' %}
+    </div>
+    {% include './blocks/scripts.twig' %}
+</body>
+
+</html>
